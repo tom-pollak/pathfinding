@@ -19,6 +19,3 @@ artifacts {
   archives jar, javadocJar, sourcesJar
 }
 
-signing {
-  sign configurations.archives
-}

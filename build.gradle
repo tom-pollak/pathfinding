@@ -26,7 +26,7 @@ allprojects{
 ext {
   projectVersion = '0.2.6'
   projectGroupId = 'com.github.xaguzman'
-  gdxVersion = '1.5.0'
+  gdxVersion = '1.10.0'
   distDir = file('dist/')   
 }
 

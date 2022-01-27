@@ -25,9 +25,9 @@ allprojects{
 
 ext {
   projectVersion = '0.2.6'
-  projectGroupId = 'com.github.xaguzman'
   gdxVersion = '1.10.0'
-  distDir = file('dist/')   
+  projectGroupId = 'com.github.tom-pollak'
+  distDir = file('dist/')
 }
 
 
@@ -53,14 +53,14 @@ subprojects{
 }
 
 project(':pathfinding'){
-  
+
   dependencies {
     testCompile 'junit:junit:4.10'
   }
 }
 
 project(':gdx-bridge'){
-  
+
   dependencies {
     compile project(":pathfinding")
    	compile "com.badlogicgames.gdx:gdx:$gdxVersion"
